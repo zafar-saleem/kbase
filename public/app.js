@@ -1,6 +1,6 @@
 var app = angular.module('kB', ['ngRoute']);
 
-app.config(['$routeProvider'], function ($routeProvider) {
+app.config(['$routeProvider', function ($routeProvider) {
 	$routeProvider.
 		when('/categories', {
 			templateUrl: 'views/categories.view.html',
@@ -29,4 +29,4 @@ app.config(['$routeProvider'], function ($routeProvider) {
 		otherwise({
 			redirectTo: '/categories'
 		});
-});
+}]);

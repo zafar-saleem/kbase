@@ -7,6 +7,18 @@ a {
   color: #00B7FF;
 }
 
+.heading {
+	background: #666;
+	color: #fff;
+	padding: 5px;
+}
+
+.article {
+	border-bottom: #ccc solid 1px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
 footer {
 	background: #333;
 	color: #fff;
